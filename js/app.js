@@ -30,7 +30,7 @@ const addResults = (sResults) => {
         const url = `https://en.wikipedia.org/?curid=${result.pageid}`;
 
         searchResult.insertAdjacentHTML(
-            "beforeend",
+            "beforeend", // yoki aftebegin
             `<div class="card">
                 <h3 class="cardTitle">
                     <a href="${url}" target="_blank">${result.title}</a>
